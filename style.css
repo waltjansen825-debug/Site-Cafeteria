@@ -308,3 +308,53 @@ section {
     background-color: var(--main-color);
     transform: scale(1.1);
 }
+
+.menu-btn {
+    display: none;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .header section {
+        position: relative;
+    }
+
+    .navbar {
+        position: absolute;
+
+        top: 100%;
+        right: 0;
+
+        background: var(--black);
+
+        width: 100%;
+
+        display: none;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 2rem 0;
+        gap: 2rem;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar a {
+        font-size: 2rem;
+    }
+}

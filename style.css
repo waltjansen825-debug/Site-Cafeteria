@@ -368,11 +368,3 @@ section {
         font-size: 2rem;
     }
 }
-
-@media (max-width: 768px) {
-
-    .header .logoo {
-        display: none;
-    }
-
-}

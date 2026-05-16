@@ -314,6 +314,7 @@ section {
     font-size: 3rem;
     color: white;
     cursor: pointer;
+    margin-right: auto;
 }
 
 @media (max-width: 768px) {
@@ -357,4 +358,12 @@ section {
     .navbar a {
         font-size: 2rem;
     }
+}
+
+@media (max-width: 768px) {
+
+    .header .logoo {
+        display: none;
+    }
+
 }
